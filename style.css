@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+	--Darkcyan-color:hsl(185, 75%, 39%);
+	--verydark-color: hsl(229, 23%, 23%);
+	--Darkgrayish-color: hsl(227, 10%, 46%);
+
+	--Darkgray-color: hsl(0, 0%, 59%);
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Kumbh Sans', sans-serif;
+	background-color: var(--Darkcyan-color);
+	background-image: url(bg-pattern-top.svg);
+	background-image: url(bg-pattern-bottom.svg);
+}
+
+
+.card{
+	max-width: 350px;
+    height:100%;
+	margin:150px auto;
+	background-color: aliceblue;
+	border-radius: 10px;
+	box-shadow: 1px 1px  1px grey;
+}
+
+.articulo{
+	height: 70px;
+}
+
+article{
+	text-align: center;
+	position: relative;
+	bottom: 3em;
+}
+
+.card-svg{
+	background-image: url(bg-pattern-card.svg);
+	width: 350px;
+	height: 150px;
+	border-radius: 5px 5px 0 0;
+}
+
+.imagen-svg1{
+	border-radius: 50%;
+}
+
+.card-title{
+	text-align: center;
+}
+
+strong{
+	color: var(--Darkgray-color);
+}
+
+.card-div{
+	text-align: center;
+	padding: 10px;
+	color: var(--Darkgray-color);
+}
+
+.container-2{
+	display: flex;
+}
+
+.card-3{
+	padding: 2em;
+}
+
+.card-div2{
+	font-weight: 600;
+}
+
+.card-div3{
+	font-size: 12px;
+	color: var(--Darkgray-color);
+}
+
+
+
